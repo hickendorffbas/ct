@@ -9,7 +9,7 @@ import sys
 CONF_DIRECTORY = os.getenv("CT_CONF_DIRECTORY")
 if CONF_DIRECTORY is None:
     print("ERROR: environment variable CT_CONF_DIRECTORY not set")
-    return
+    exit()
 
 
 def load_commands():
