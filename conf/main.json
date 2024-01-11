@@ -1,0 +1,6 @@
+{
+  "search": {
+    "command": "grep -ir [] .",
+    "description": "search with grep trough the current directory"
+  }
+}
